@@ -7,7 +7,7 @@
 .header,
 .header-body {
     padding: 50px;
-    margin: 0px 20px 0px 20px;
+
 }
 
 .header
@@ -19,7 +19,12 @@
 }
 
 .container {
-    margin: 1px;
+
+}
+
+body {
+    background-color: black;
+    margin: 0px 50px 0px 50px;
 }
 
 .header-links {
@@ -86,6 +91,7 @@ a {
 }
 
 .button {
+    margin-top: 20px;
     background-color: #3882f6;
     width: fit-content;
     padding:2px 20px 2px 20px;
@@ -93,8 +99,21 @@ a {
     margin: 10px 10px 10px 0px;
 }
 
+.button:hover {
+    background-color: #005df3;
+    color: black;
+    width: fit-content;
+    padding:2px 20px 2px 20px;
+    border-radius: 5px;
+    margin: 10px 10px 10px 0px;
+}
+
 .body-1 {
-    margin-top: 20px;
+
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
 }
 
 .body-1-header {
@@ -103,16 +122,104 @@ a {
     font-size: 24px;
     text-align: center;
     margin-bottom: 20px;
+    padding-top: 20px;
 }
 
 .blocks {
     display: flex;
-    gap: 10px;
     justify-content: center;
 }
 
 .block {
-    border: solid #3882f6 4px;
+    border: solid #3882f6 2px;
     padding: 50px;
     border-radius: 7px;
+}
+
+.block-texts {
+    display: flex;
+    justify-content: center;
+
+}
+
+.block-text {
+    margin: 2px;
+    width: 120px ;
+    font-size: 12px;
+    text-align: center;
+
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    height: 200px;
+    padding: 20px;
+}
+
+.quote {
+    width: 345px;
+}
+
+.thor {
+    font-weight: bolder;
+    text-align: right;
+}
+
+.action {
+    justify-content: center;
+    background-color: white;
+    padding: 100px;
+}
+
+.background {
+    display: flex;
+    border-radius: 6px;
+    background-color:  #3882f6;
+    padding: 45px;
+    font-size: 10px;
+}
+
+.call-to-action {
+    flex: 4;
+    font-weight: bolder;
+    color: white;
+    text-align: left;
+
+}
+
+.sign-up {
+    flex: 1;
+    margin: 20px 20px 20px 40px;
+    font-weight: bold;
+    color: white;
+    border: 2px solid white;
+    text-align: center;
+    padding: 2px;
+    border-radius: 3px;
+
+}
+
+.sign-up:hover {
+    flex: 1;
+    margin: 20px 20px 20px 40px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: #1f2937;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    padding: 2px;
+    border-radius: 3px;
+
+}
+
+.footer {
+    background-color: #1f2937;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 10px;
 }
